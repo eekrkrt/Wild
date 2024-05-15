@@ -1,0 +1,337 @@
+
+ekara@EK MINGW64 ~/Desktop
+$ grep "France,2019,PHP" WildersAlumni.csv > php_france_2019.csv
+
+ekara@EK MINGW64 ~/Desktop
+$ cat php_france_2019.csv
+Laure,Gaudin,Biarritz,France,2019,PHP
+Inès,Descamps,Biarritz,France,2019,PHP
+Roger,Normand,Biarritz,France,2019,PHP
+Élisabeth,Laporte,Biarritz,France,2019,PHP
+Laurent,"Le Roux",Biarritz,France,2019,PHP
+Théophile,Blanc,Bordeaux,France,2019,PHP
+Julie,Charrier,Bordeaux,France,2019,PHP
+Élodie,Moreau,Bordeaux,France,2019,PHP
+Renée,Guilbert,Bordeaux,France,2019,PHP
+Margot,Maillard,Bordeaux,France,2019,PHP
+Victoire,Wagner,"La Loupe",France,2019,PHP
+Patricia,David,"La Loupe",France,2019,PHP
+André,Joly,"La Loupe",France,2019,PHP
+Laurent,Merle,"La Loupe",France,2019,PHP
+Camille,Berger,"La Loupe",France,2019,PHP
+Michèle,Chevalier,"La Loupe",France,2019,PHP
+Rémy,Perret,"La Loupe",France,2019,PHP
+Hortense,Guerin,"La Loupe",France,2019,PHP
+Alphonse,Morvan,"La Loupe",France,2019,PHP
+Benoît,Marty,"La Loupe",France,2019,PHP
+Denis,Pottier,"La Loupe",France,2019,PHP
+Hortense,Goncalves,Lille,France,2019,PHP
+Nath,Remy,Lille,France,2019,PHP
+Gabriel,Lelievre,Lille,France,2019,PHP
+Auguste,Gillet,Lille,France,2019,PHP
+Daniel,Lombard,Lille,France,2019,PHP
+Xavier,Bazin,Lille,France,2019,PHP
+René,Moreau,Lyon,France,2019,PHP
+Gérard,Boutin,Lyon,France,2019,PHP
+Arnaude,Charpentier,Lyon,France,2019,PHP
+Françoise,Normand,Lyon,France,2019,PHP
+Honoré,Gerard,Lyon,France,2019,PHP
+Émile,Michel,Lyon,France,2019,PHP
+Julie,Allain,Lyon,France,2019,PHP
+Yves,Herve,Lyon,France,2019,PHP
+Caroline,Vaillant,Lyon,France,2019,PHP
+Margaux,Besson,Marseille,France,2019,PHP
+Daniel,Joly,Marseille,France,2019,PHP
+Sylvie,Duval,Marseille,France,2019,PHP
+Margot,Gomez,Marseille,France,2019,PHP
+Caroline,Moreno,Marseille,France,2019,PHP
+Laure,Chretien,Marseille,France,2019,PHP
+Benjamin,Gilbert,Marseille,France,2019,PHP
+Maurice,Remy,Marseille,France,2019,PHP
+Pauline,Valentin,Marseille,France,2019,PHP
+Hugues,Dumont,Marseille,France,2019,PHP
+Claudine,Couturier,Marseille,France,2019,PHP
+Marguerite,Blanc,Nantes,France,2019,PHP
+Élodie,Carlier,Nantes,France,2019,PHP
+Grégoire,Coste,Nantes,France,2019,PHP
+Victor,Toussaint,Nantes,France,2019,PHP
+Alain,Boutin,Nantes,France,2019,PHP
+Nathalie,Lopez,Nantes,France,2019,PHP
+Nathalie,Hebert,Nantes,France,2019,PHP
+Antoine,Delmas,Nantes,France,2019,PHP
+Léon,Poirier,Nantes,France,2019,PHP
+Nicolas,Dubois,Orleans,France,2019,PHP
+Jeanne,Gonzalez,Orleans,France,2019,PHP
+Christine,Leclerc,Orleans,France,2019,PHP
+Isabelle,Marin,Orleans,France,2019,PHP
+Suzanne,Pages,Orleans,France,2019,PHP
+Anaïs,Blondel,Orleans,France,2019,PHP
+Maurice,Moreno,Orleans,France,2019,PHP
+Denise,Levy,Paris,France,2019,PHP
+Catherine,Nicolas,Paris,France,2019,PHP
+Hortense,Vaillant,Paris,France,2019,PHP
+Émile,Garcia,Paris,France,2019,PHP
+Clémence,Traore,Paris,France,2019,PHP
+Victoire,Grondin,Reims,France,2019,PHP
+Simone,"De Sousa",Reims,France,2019,PHP
+Raymond,Renaud,Reims,France,2019,PHP
+Bertrand,Mary,Reims,France,2019,PHP
+Jean,Pottier,Reims,France,2019,PHP
+Philippe,Ribeiro,Reims,France,2019,PHP
+Émile,Perret,Reims,France,2019,PHP
+Nicolas,Guyon,Strasbourg,France,2019,PHP
+Manon,Clement,Strasbourg,France,2019,PHP
+Émile,Dumas,Strasbourg,France,2019,PHP
+Henri,Carlier,Strasbourg,France,2019,PHP
+Dominique,"Da Silva",Strasbourg,France,2019,PHP
+Yves,Blin,Strasbourg,France,2019,PHP
+David,Dupuis,Strasbourg,France,2019,PHP
+Susanne,Lucas,Toulouse,France,2019,PHP
+Roger,Garcia,Toulouse,France,2019,PHP
+Isaac,Martineau,Toulouse,France,2019,PHP
+Éléonore,Laroche,Toulouse,France,2019,PHP
+Marguerite,Bertin,Toulouse,France,2019,PHP
+Odette,Carlier,Toulouse,France,2019,PHP
+Joseph,Rodriguez,Toulouse,France,2019,PHP
+Camille,Raymond,Toulouse,France,2019,PHP
+Anastasie,Roux,Toulouse,France,2019,PHP
+Richard,Rodrigues,Toulouse,France,2019,PHP
+Julie,Perez,Tours,France,2019,PHP
+Zoé,Vasseur,Tours,France,2019,PHP
+Anaïs,Lebon,Tours,France,2019,PHP
+Henri,Riviere,Tours,France,2019,PHP
+Françoise,Godard,Tours,France,2019,PHP
+
+ekara@EK MINGW64 ~/Desktop
+$ grep "Toulouse\|Biarritz" WildersAlumni.csv > TnB.csv
+
+ekara@EK MINGW64 ~/Desktop
+$ cat TnB.csv
+Isabelle,Brunel,Biarritz,France,2017,Java
+Thibaut,Bouchet,Biarritz,France,2017,Java
+Emmanuelle,Mercier,Biarritz,France,2017,JavaScript
+Stéphanie,Maillard,Biarritz,France,2017,Java
+Eugène,Didier,Biarritz,France,2017,PHP
+Michelle,Legros,Biarritz,France,2017,Java
+Catherine,Marin,Biarritz,France,2017,Java
+Benoît,Descamps,Biarritz,France,2017,PHP
+Robert,Delorme,Biarritz,France,2017,PHP
+Charlotte,Tanguy,Biarritz,France,2017,PHP
+Théodore,Levy,Biarritz,France,2017,Java
+Thierry,Alexandre,Biarritz,France,2017,JavaScript
+Renée,Pasquier,Biarritz,France,2017,Java
+Gilbert,Lemaire,Biarritz,France,2017,Java
+Édith,Turpin,Biarritz,France,2017,JavaScript
+Dominique,Briand,Biarritz,France,2017,PHP
+Frédérique,Rodrigues,Biarritz,France,2017,Java
+Dominique,Guyot,Biarritz,France,2017,PHP
+Michel,Riou,Biarritz,France,2017,Java
+Chantal,Caron,Biarritz,France,2017,JavaScript
+Pénélope,Paris,Biarritz,France,2017,JavaScript
+Christelle,Vallet,Biarritz,France,2017,JavaScript
+Jérôme,Hoarau,Biarritz,France,2017,PHP
+Daniel,Roy,Biarritz,France,2017,JavaScript
+Hélène,Hoarau,Biarritz,France,2017,Java
+Martine,Bailly,Biarritz,France,2018,PHP
+Théodore,Regnier,Biarritz,France,2018,JavaScript
+Benjamin,Tanguy,Biarritz,France,2018,JavaScript
+Timothée,Gaudin,Biarritz,France,2018,PHP
+Élisabeth,Bonnet,Biarritz,France,2018,Java
+Agnès,Robin,Biarritz,France,2018,PHP
+Hélène,David,Biarritz,France,2018,Java
+Arthur,Bruneau,Biarritz,France,2018,JavaScript
+Noël,Marechal,Biarritz,France,2018,PHP
+Christophe,Deschamps,Biarritz,France,2018,PHP
+Lorraine,Dumas,Biarritz,France,2018,Java
+Sébastien,Ferreira,Biarritz,France,2018,JavaScript
+Charlotte,Roche,Biarritz,France,2018,JavaScript
+François,Prevost,Biarritz,France,2018,Java
+Thierry,Blanchard,Biarritz,France,2018,Java
+Philippe,Barbe,Biarritz,France,2018,Java
+Édouard,Bonnin,Biarritz,France,2018,Java
+Susanne,Rousseau,Biarritz,France,2018,PHP
+Catherine,Robin,Biarritz,France,2018,Java
+Bernard,Guillot,Biarritz,France,2018,Java
+Colette,Bouvier,Biarritz,France,2018,JavaScript
+Antoine,Morvan,Biarritz,France,2018,Java
+Alfred,"Da Silva",Biarritz,France,2018,JavaScript
+Joséphine,"De Oliveira",Biarritz,France,2018,Java
+Isabelle,Samson,Biarritz,France,2018,Java
+Lucas,Lefort,Biarritz,France,2019,Java
+Vincent,Sanchez,Biarritz,France,2019,JavaScript
+Yves,Marie,Biarritz,France,2019,JavaScript
+Laure,Gaudin,Biarritz,France,2019,PHP
+Alphonse,Leleu,Biarritz,France,2019,JavaScript
+Adrien,Maillard,Biarritz,France,2019,Java
+Laurence,Lemaire,Biarritz,France,2019,JavaScript
+Marcel,Olivier,Biarritz,France,2019,JavaScript
+Victor,Lopez,Biarritz,France,2019,JavaScript
+Michel,David,Biarritz,France,2019,JavaScript
+Philippine,Lefevre,Biarritz,France,2019,Java
+David,Daniel,Biarritz,France,2019,Java
+Arnaude,Barbier,Biarritz,France,2019,Java
+Théodore,Bousquet,Biarritz,France,2019,JavaScript
+Andrée,Berthelot,Biarritz,France,2019,JavaScript
+William,Gaudin,Biarritz,France,2019,Java
+Léon,Jacquet,Biarritz,France,2019,JavaScript
+Gilles,Louis,Biarritz,France,2019,Java
+Laetitia,Schneider,Biarritz,France,2019,JavaScript
+Madeleine,Coste,Biarritz,France,2019,Java
+Inès,Descamps,Biarritz,France,2019,PHP
+Roger,Normand,Biarritz,France,2019,PHP
+Élisabeth,Laporte,Biarritz,France,2019,PHP
+Laurent,"Le Roux",Biarritz,France,2019,PHP
+Thérèse,Guyot,Biarritz,France,2019,JavaScript
+Alexandrie,Delahaye,Toulouse,France,2017,Java
+Emmanuelle,Boulanger,Toulouse,France,2017,Java
+Maurice,Paris,Toulouse,France,2017,Java
+Alain,Coste,Toulouse,France,2017,Java
+Alphonse,Dumont,Toulouse,France,2017,PHP
+Adrien,Coste,Toulouse,France,2017,Java
+Amélie,Philippe,Toulouse,France,2017,Java
+René,Robin,Toulouse,France,2017,Java
+Adélaïde,Vidal,Toulouse,France,2017,Java
+Alphonse,Fischer,Toulouse,France,2017,PHP
+Virginie,Guyon,Toulouse,France,2017,Java
+Rémy,Boucher,Toulouse,France,2017,Java
+Dominique,Barre,Toulouse,France,2017,Java
+Julien,Ollivier,Toulouse,France,2017,PHP
+Agathe,Bazin,Toulouse,France,2017,JavaScript
+Victoire,Goncalves,Toulouse,France,2017,Java
+Virginie,Gillet,Toulouse,France,2017,PHP
+Élodie,Martins,Toulouse,France,2017,Java
+Patrick,Huet,Toulouse,France,2017,Java
+Maurice,Munoz,Toulouse,France,2017,JavaScript
+Anastasie,Charpentier,Toulouse,France,2017,Java
+Anastasie,Boulanger,Toulouse,France,2017,PHP
+Léon,Jacques,Toulouse,France,2017,PHP
+Michelle,Georges,Toulouse,France,2017,Java
+Michèle,Traore,Toulouse,France,2017,JavaScript
+Christophe,Gauthier,Toulouse,France,2018,Java
+Josette,Martin,Toulouse,France,2018,PHP
+Michelle,Texier,Toulouse,France,2018,PHP
+Aurélie,Becker,Toulouse,France,2018,JavaScript
+Timothée,Henry,Toulouse,France,2018,JavaScript
+Adrienne,Gallet,Toulouse,France,2018,PHP
+Noël,Meunier,Toulouse,France,2018,PHP
+Manon,Turpin,Toulouse,France,2018,PHP
+Matthieu,Gaudin,Toulouse,France,2018,PHP
+Laurent,Peltier,Toulouse,France,2018,Java
+Odette,Bourdon,Toulouse,France,2018,Java
+Adrien,Pineau,Toulouse,France,2018,PHP
+Isabelle,Schneider,Toulouse,France,2018,Java
+Théodore,Gerard,Toulouse,France,2018,JavaScript
+Pénélope,Vallet,Toulouse,France,2018,Java
+Maryse,Allain,Toulouse,France,2018,JavaScript
+Raymond,Perret,Toulouse,France,2018,PHP
+Arthur,Guibert,Toulouse,France,2018,Java
+Philippe,Paris,Toulouse,France,2018,JavaScript
+Arthur,Cohen,Toulouse,France,2018,Java
+Henri,Guilbert,Toulouse,France,2018,JavaScript
+Noémi,Carre,Toulouse,France,2018,PHP
+Isabelle,Pires,Toulouse,France,2018,PHP
+Gilbert,Diaz,Toulouse,France,2018,Java
+Olivier,Dufour,Toulouse,France,2018,JavaScript
+Raymond,Poulain,Toulouse,France,2019,Java
+Alexandre,"Da Silva",Toulouse,France,2019,JavaScript
+Susanne,Lucas,Toulouse,France,2019,PHP
+Roger,Garcia,Toulouse,France,2019,PHP
+Isaac,Martineau,Toulouse,France,2019,PHP
+Zacharie,Thomas,Toulouse,France,2019,Java
+Éléonore,Laroche,Toulouse,France,2019,PHP
+Mathilde,Descamps,Toulouse,France,2019,JavaScript
+Céline,Fabre,Toulouse,France,2019,JavaScript
+Marguerite,Bertin,Toulouse,France,2019,PHP
+Raymond,Bouvet,Toulouse,France,2019,JavaScript
+Odette,Carlier,Toulouse,France,2019,PHP
+Pénélope,Collet,Toulouse,France,2019,Java
+Joseph,Rodriguez,Toulouse,France,2019,PHP
+Danielle,Lecomte,Toulouse,France,2019,JavaScript
+Camille,Raymond,Toulouse,France,2019,PHP
+Sébastien,Lefort,Toulouse,France,2019,Java
+Noël,Noel,Toulouse,France,2019,JavaScript
+Anastasie,Roux,Toulouse,France,2019,PHP
+Danielle,Perrin,Toulouse,France,2019,JavaScript
+Éric,Meunier,Toulouse,France,2019,JavaScript
+Anaïs,Lambert,Toulouse,France,2019,Java
+Claude,Samson,Toulouse,France,2019,JavaScript
+Guillaume,Perrin,Toulouse,France,2019,Java
+Richard,Rodrigues,Toulouse,France,2019,PHP
+
+ekara@EK MINGW64 ~/Desktop
+$
+grep "JavaScript" TnB.csv > javascript_biarritz_toulouse.csv
+
+ekara@EK MINGW64 ~/Desktop
+$ cat javascript_biarritz_toulouse.csv
+Emmanuelle,Mercier,Biarritz,France,2017,JavaScript
+Thierry,Alexandre,Biarritz,France,2017,JavaScript
+Édith,Turpin,Biarritz,France,2017,JavaScript
+Chantal,Caron,Biarritz,France,2017,JavaScript
+Pénélope,Paris,Biarritz,France,2017,JavaScript
+Christelle,Vallet,Biarritz,France,2017,JavaScript
+Daniel,Roy,Biarritz,France,2017,JavaScript
+Théodore,Regnier,Biarritz,France,2018,JavaScript
+Benjamin,Tanguy,Biarritz,France,2018,JavaScript
+Arthur,Bruneau,Biarritz,France,2018,JavaScript
+Sébastien,Ferreira,Biarritz,France,2018,JavaScript
+Charlotte,Roche,Biarritz,France,2018,JavaScript
+Colette,Bouvier,Biarritz,France,2018,JavaScript
+Alfred,"Da Silva",Biarritz,France,2018,JavaScript
+Vincent,Sanchez,Biarritz,France,2019,JavaScript
+Yves,Marie,Biarritz,France,2019,JavaScript
+Alphonse,Leleu,Biarritz,France,2019,JavaScript
+Laurence,Lemaire,Biarritz,France,2019,JavaScript
+Marcel,Olivier,Biarritz,France,2019,JavaScript
+Victor,Lopez,Biarritz,France,2019,JavaScript
+Michel,David,Biarritz,France,2019,JavaScript
+Théodore,Bousquet,Biarritz,France,2019,JavaScript
+Andrée,Berthelot,Biarritz,France,2019,JavaScript
+Léon,Jacquet,Biarritz,France,2019,JavaScript
+Laetitia,Schneider,Biarritz,France,2019,JavaScript
+Thérèse,Guyot,Biarritz,France,2019,JavaScript
+Agathe,Bazin,Toulouse,France,2017,JavaScript
+Maurice,Munoz,Toulouse,France,2017,JavaScript
+Michèle,Traore,Toulouse,France,2017,JavaScript
+Aurélie,Becker,Toulouse,France,2018,JavaScript
+Timothée,Henry,Toulouse,France,2018,JavaScript
+Théodore,Gerard,Toulouse,France,2018,JavaScript
+Maryse,Allain,Toulouse,France,2018,JavaScript
+Philippe,Paris,Toulouse,France,2018,JavaScript
+Henri,Guilbert,Toulouse,France,2018,JavaScript
+Olivier,Dufour,Toulouse,France,2018,JavaScript
+Alexandre,"Da Silva",Toulouse,France,2019,JavaScript
+Mathilde,Descamps,Toulouse,France,2019,JavaScript
+Céline,Fabre,Toulouse,France,2019,JavaScript
+Raymond,Bouvet,Toulouse,France,2019,JavaScript
+Danielle,Lecomte,Toulouse,France,2019,JavaScript
+Noël,Noel,Toulouse,France,2019,JavaScript
+Danielle,Perrin,Toulouse,France,2019,JavaScript
+Éric,Meunier,Toulouse,France,2019,JavaScript
+Claude,Samson,Toulouse,France,2019,JavaScript
+
+ekara@EK MINGW64 ~/Desktop
+$
+history | tail -n 200 > history.txt
+
+ekara@EK MINGW64 ~/Desktop
+$ car history.txt
+bash: car: command not found
+
+ekara@EK MINGW64 ~/Desktop
+$ cat history.txt
+    1  history
+    2  clear
+    3  history
+    4  grep "France,2019,PHP" WildersAlumni.csv > php_france_2019.csv
+    5  clear
+    6  grep "France,2019,PHP" WildersAlumni.csv > php_france_2019.csv
+    7  cat php_france_2019.csv
+    8  grep "Toulouse\|Biarritz" WildersAlumni.csv > TnB.csv
+    9  cat TnB.csv
+   10  grep "JavaScript" TnB.csv > javascript_biarritz_toulouse.csv
+   11  cat javascript_biarritz_toulouse.csv
+   12  history | tail -n 200 > history.txt
+
+ekara@EK MINGW64 ~/Desktop
+$
